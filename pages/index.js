@@ -1,11 +1,11 @@
 import React from 'react';
-import Note from '../components/note/Note';
+import Card from '../components/card/Card';
 
 export default function Index() {
   return (
     <div>
       <p>Hello Next.js</p>
-      <Note text='Testando uma nota'></Note>
+      <Card text='Testando um card'></Card>
     </div>
   );
 }
