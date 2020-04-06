@@ -10,6 +10,7 @@ This code has been used:
 - Styled-components
 - React Testing Library
 - ES7
+- Babel
 - CircleCI
 
 ## Comands
@@ -17,3 +18,11 @@ This code has been used:
 To run the project use de comand below:
 
 `npm run dev`
+
+To run tests use:
+
+`npm run test`
+
+To run coverage tests use:
+
+`npm run coverage`
