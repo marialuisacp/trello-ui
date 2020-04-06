@@ -6,7 +6,7 @@ const StyledHeaderButton = styled.button`
   margin: 3px 1.5px;
   align-items: center;
   outline: none;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: ${props => (props.color ? props.color : 'rgba(255, 255, 255, 0.3)')};
   border-radius: 3px;
   border-image-width: 1;
   border: 0px;

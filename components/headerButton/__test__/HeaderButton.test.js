@@ -8,6 +8,7 @@ afterEach(cleanup);
 const defaultProps = {
   icon: 'board',
   text: 'Teste',
+  color: '#FF0000'
 };
 
 test('should render component HeaderButton', () => {

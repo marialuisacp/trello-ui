@@ -4,8 +4,8 @@ import StyledHeaderButtonIcon from './styles/HeaderButtonIcon.styles';
 import StyledHeaderButtonText from './styles/HeaderButtonText.styles';
 import PropTypes from 'prop-types';
 
-const HeaderButton = ({ icon, text }) => (
-  <StyledHeaderButton>
+const HeaderButton = ({ icon, text, color }) => (
+  <StyledHeaderButton color={color}>
     <StyledHeaderButtonIcon className={`icon-${icon}`}></StyledHeaderButtonIcon>
     {text && <StyledHeaderButtonText> {text} </StyledHeaderButtonText>}
   </StyledHeaderButton>
@@ -13,7 +13,8 @@ const HeaderButton = ({ icon, text }) => (
 
 HeaderButton.propTypes = {
   icon: PropTypes.string.isRequired,
-  text: PropTypes.string
+  text: PropTypes.string,
+  color: PropTypes.string
 };
 
 export default HeaderButton;
