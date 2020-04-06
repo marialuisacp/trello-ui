@@ -3,18 +3,20 @@ import StyledHeaderButton from './styles/HeaderButton.styles';
 import StyledHeaderButtonIcon from './styles/HeaderButtonIcon.styles';
 import StyledHeaderButtonText from './styles/HeaderButtonText.styles';
 import PropTypes from 'prop-types';
+import StyledWhiteSpace from './styles/HeaderButtonWhiteSpace.styles';
 
-const HeaderButton = ({ icon, text, color }) => (
-  <StyledHeaderButton color={color}>
-    <StyledHeaderButtonIcon className={`icon-${icon}`}></StyledHeaderButtonIcon>
-    {text && <StyledHeaderButtonText> {text} </StyledHeaderButtonText>}
+const HeaderButton = props => (
+  <StyledHeaderButton color={props.color} margin={props.margin}>
+    {props.icon && <StyledHeaderButtonIcon className={`icon-${props.icon}`}></StyledHeaderButtonIcon> || <StyledWhiteSpace />}
+    {props.text && <StyledHeaderButtonText light={props.light}> {props.text} </StyledHeaderButtonText>}
   </StyledHeaderButton>
 );
 
 HeaderButton.propTypes = {
-  icon: PropTypes.string.isRequired,
+  icon: PropTypes.string,
   text: PropTypes.string,
-  color: PropTypes.string
+  color: PropTypes.string,
+  margin: PropTypes.bool
 };
 
 export default HeaderButton;

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const StyledHeaderButton = styled.button`
   height: 25px;
   padding: 0;
-  margin: 3px 1.5px;
+  margin: ${props => (props.margin ? '3px 4px' : '3px 1.5px')};
   align-items: center;
   outline: none;
   background-color: ${props => (props.color ? props.color : 'rgba(255, 255, 255, 0.3)')};
