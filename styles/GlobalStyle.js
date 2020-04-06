@@ -19,6 +19,7 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     display: block;
     background-color: rgb(0, 174, 204);
+    background-image: url('/assets/bg-board.jpg');
     font-family: 'Roboto', sans-serif;
   }
 `
