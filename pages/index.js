@@ -1,5 +1,4 @@
 import React from 'react';
-import Card from '../components/card/Card';
 import GlobalStyle from '../styles/GlobalStyle';
 import Header from '../components/header/Header';
 

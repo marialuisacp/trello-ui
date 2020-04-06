@@ -1,4 +1,4 @@
-# Trelo UI
+# Trello UI
 
 This project, is a simple app to reproduce Trello UI, built to pratice front-end technologies.
 

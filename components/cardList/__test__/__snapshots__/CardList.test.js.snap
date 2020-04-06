@@ -1,3 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`should CardList component with empty list 1`] = `undefined`;
+
 exports[`should render component CardList 1`] = `undefined`;

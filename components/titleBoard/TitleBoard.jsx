@@ -3,7 +3,7 @@ import StyledTitleBoard from './styles/TitleBoard.styles';
 
 const TitleBoard = () => (
   <StyledTitleBoard>
-    Onboarding - Maria Luísa
+    Trello UI - Maria Luísa
   </StyledTitleBoard>
 );
 

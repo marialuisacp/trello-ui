@@ -2,6 +2,7 @@ import React from 'react';
 import StyledBoard from './styles/Board.styles';
 import BoardHeaderMenu from '../boardHeaderMenu/BoardHeaderMenu';
 import CardList from '../cardList/CardList';
+import PropTypes from 'prop-types';
 
 const Board = ({ data }) => (
   <div>
@@ -13,5 +14,9 @@ const Board = ({ data }) => (
     </StyledBoard>
   </div>
 );
+
+Board.propTypes = {
+  data: PropTypes.arrayOf(PropTypes.object).isRequired
+};
 
 export default Board;
