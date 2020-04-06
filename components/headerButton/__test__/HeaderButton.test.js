@@ -10,7 +10,8 @@ const defaultProps = {
   text: 'Teste',
   color: '#FF0000',
   light: false,
-  fontColor: '#00FF00'
+  fontColor: '#00FF00',
+  margin: false
 };
 
 test('should render component HeaderButton', () => {

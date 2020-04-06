@@ -14,6 +14,10 @@ const StyledCard = styled.div`
   z-index: 0;
   display: flex;
   justify-content: space-between;
+  &&:hover {
+    background-color: #f4f5f7;
+    border-bottom-color: rgba(9,30,66,.25);
+  }
   &&:hover .icon-edit {
     opacity: 1;
   }

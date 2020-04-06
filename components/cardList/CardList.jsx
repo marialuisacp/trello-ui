@@ -3,6 +3,7 @@ import StyledCardList from './styles/CardList.styles';
 import CardListHeader from '../cardListHeader/CardListHeader';
 import Card from '../card/Card';
 import PropTypes from 'prop-types';
+import CardListMenu from '../cardListMenu/CardListMenu';
 
 const CardList = ({ list, title }) => (
   <StyledCardList>
@@ -10,6 +11,7 @@ const CardList = ({ list, title }) => (
     <div>
       {list && list.map((item, key) => <Card text={item.text} key={key}></Card>)}
     </div>
+    <CardListMenu></CardListMenu>
   </StyledCardList>
 );
 

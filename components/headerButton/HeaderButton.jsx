@@ -5,8 +5,8 @@ import StyledHeaderButtonText from './styles/HeaderButtonText.styles';
 import PropTypes from 'prop-types';
 import StyledWhiteSpace from './styles/HeaderButtonWhiteSpace.styles';
 
-const HeaderButton = props => (
-  <StyledHeaderButton color={props.color} margin={props.margin}>
+const HeaderButton = props => {
+  return <StyledHeaderButton color={props.color} margin={props.margin} hover={props.hover}>
     {props.icon &&
       <StyledHeaderButtonIcon fontColor={props.fontColor} className={`icon-${props.icon}`}>
       </StyledHeaderButtonIcon>
@@ -15,13 +15,14 @@ const HeaderButton = props => (
       <StyledHeaderButtonText fontColor={props.fontColor} light={props.light}> {props.text}
       </StyledHeaderButtonText>}
   </StyledHeaderButton>
-);
+};
 
 HeaderButton.propTypes = {
   icon: PropTypes.string,
   text: PropTypes.string,
   color: PropTypes.string,
-  margin: PropTypes.bool
+  margin: PropTypes.bool,
+  hover: PropTypes.string,
 };
 
 export default HeaderButton;

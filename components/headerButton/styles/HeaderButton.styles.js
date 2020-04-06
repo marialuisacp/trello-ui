@@ -22,7 +22,7 @@ const StyledHeaderButton = styled.button`
   white-space: nowrap;
   word-spacing: 0px;
   &&:hover {
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: ${props => (props.hover ? props.hover : 'rgba(255, 255, 255, 0.4)')};
     cursor: pointer;
   }
 `;

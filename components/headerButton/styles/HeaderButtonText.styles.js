@@ -8,7 +8,6 @@ const StyledHeaderButtonText = styled.span`
   font-weight: ${props => (props.light ? 'normal' : 'bold')};
   line-height: 26px;
   white-space: nowrap;
-  color: rgb(255,255,255);
   height: 26px;
 `;
 
