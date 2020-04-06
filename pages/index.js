@@ -5,7 +5,7 @@ export default function Index() {
   return (
     <div>
       <p>Hello Next.js</p>
-      <Note text="testeee"></Note>
+      <Note text="Testando uma nota"></Note>
     </div>
   );
 }
