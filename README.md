@@ -1,6 +1,6 @@
-# Notes app
+# Trelo UI
 
-This project, is a simple app to manage task notes, built to pratice front-end technologies.
+This project, is a simple app to reproduce Trello UI, built to pratice front-end technologies.
 
 This code has been used:
 
