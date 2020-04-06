@@ -8,15 +8,20 @@ const GlobalStyle = createGlobalStyle`
     font-style: normal;
     font-display: swap;
   }
+
   html {
     margin: 0;
     padding: 0;
     display: block;
   }
   body {
-    background-color: #C5D5D6;
+    margin: 0;
+    padding: 0;
+    display: block;
+    background-color: rgb(131, 140, 145);
     font-family: 'Roboto', sans-serif;
   }
 `
 
 export default GlobalStyle;
+

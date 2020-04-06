@@ -13,7 +13,7 @@ const StyledCardText = styled.span`
   display: block;
   margin: 0 0 4px;
   word-wrap: break-word;
-  font-size: ${styles.fontSizeCard}
+  font-size: ${styles.fontSizeDefault}
 `;
 
 export default StyledCardText;
