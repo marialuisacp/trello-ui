@@ -21,6 +21,10 @@ const StyledHeaderButton = styled.button`
   text-shadow: none;
   white-space: nowrap;
   word-spacing: 0px;
+  &&:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+  }
 `;
 
 export default StyledHeaderButton;

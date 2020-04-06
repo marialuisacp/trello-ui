@@ -11,8 +11,6 @@ export default function Index() {
       <GlobalStyle />
       <Header></Header>
       <BoardHeaderMenu></BoardHeaderMenu>
-      <h1> Trello UI </h1>
-      <Card text='Test card'></Card>
     </div>
   );
 }
