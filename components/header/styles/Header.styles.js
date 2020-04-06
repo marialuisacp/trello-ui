@@ -13,7 +13,7 @@ const StyledHeader = styled.div`
   justify-content: space-between;
   line-height: 20px;
   overflow: hidden;
-  padding: 2px;
+  padding: 0px;
   position: relative;
   text-size-adjust: 100%;
   width: 100%;

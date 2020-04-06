@@ -1,9 +1,23 @@
 import React from 'react';
 import '@testing-library/jest-dom';
-import { render } from '@testing-library/react';
+import { render, screen, cleanup } from '@testing-library/react';
 import HeaderButton from '../HeaderButton';
 
+afterEach(cleanup);
+
+const defaultProps = {
+  icon: 'board',
+  text: 'Teste',
+};
+
 test('should render component HeaderButton', () => {
-  const { HeaderButtonFragment } = render(<HeaderButton></HeaderButton>);
+  const { HeaderButtonFragment } = render(<HeaderButton {...defaultProps}></HeaderButton>);
   expect(HeaderButtonFragment).toMatchSnapshot();
+})
+
+test('should have text in HeaderButton', () => {
+  render(<HeaderButton {...defaultProps}></HeaderButton>);
+  console.log(defaultProps);
+
+  expect(screen.getByText(defaultProps.text)).toBeInTheDocument();
 })

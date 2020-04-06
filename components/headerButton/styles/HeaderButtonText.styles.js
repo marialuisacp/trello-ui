@@ -1,26 +1,16 @@
 import styled from 'styled-components';
+import { styles } from '../../../styles/config';
 
 const StyledHeaderButtonText = styled.span`
   color: rgb(255, 255, 255);
-  cursor: pointer;
-  display: block;
-  font-family: trellicons;
-  font-size: 20px;
-  font-stretch: 100%;
-  font-style: normal;
-  font-weight: 400;
-  height: 31.9922px;
-  letter-spacing: normal;
-  line-height: 32px;
-  text-align: center;
-  text-decoration-color: rgb(255, 255, 255);
-  text-decoration-line: none;
-  text-size-adjust: 100%;
-  text-transform: none;
+  overflow: hidden;
+  padding: 0 8px 0 0px;
+  max-width: 150px;
+  font-weight: bold;
+  line-height: 26px;
   white-space: nowrap;
-  width: 31.9922px;
-  word-spacing: 0px;
-  writing-mode: horizontal-tb;
+  color: rgb(255,255,255);
+  height: 26px;
 `;
 
 export default StyledHeaderButtonText;

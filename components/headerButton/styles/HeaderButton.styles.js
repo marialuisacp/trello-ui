@@ -1,10 +1,9 @@
 import styled from 'styled-components';
 
 const StyledHeaderButton = styled.button`
-  height: 26px;
-  width: 28px;
+  height: 25px;
   padding: 0;
-  margin: 0;
+  margin: 3px 1.5px;
   align-items: center;
   outline: none;
   background-color: rgba(255, 255, 255, 0.3);
