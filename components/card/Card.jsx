@@ -1,8 +1,11 @@
 import React from 'react';
-import StyledCard from './Card.styles';
+import StyledCard from './styles/Card.styles';
+import StyledCardText from './styles/CardText.styles';
 
 const Card = ({ text }) => (
-  <StyledCard> {text} </StyledCard>
+  <StyledCard>
+    <StyledCardText>{text}</StyledCardText>
+  </StyledCard>
 );
 
 export default Card;
