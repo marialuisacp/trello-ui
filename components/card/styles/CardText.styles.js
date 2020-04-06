@@ -4,7 +4,6 @@ import { styles } from '../../../styles/config';
 const StyledCardText = styled.p`
   color: ${styles.colorText};
   font-family: ${styles.fontDefault};
-  /* overflow: hidden; */
   padding: 6px 8px 2px;
   position: relative;
   z-index: 10;
@@ -12,7 +11,6 @@ const StyledCardText = styled.p`
   clear: both;
   display: block;
   margin: 0 0 4px;
-  /* word-wrap: break-word; */
   font-size: ${styles.fontSizeDefault};
   line-height: 16px;
   white-space: normal;

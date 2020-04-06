@@ -7,3 +7,4 @@ test('should render component CardList', () => {
   const { fragment } = render(<CardList></CardList>);
   expect(fragment).toMatchSnapshot();
 });
+
