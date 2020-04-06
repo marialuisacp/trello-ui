@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const StyledHeaderButtonIcon = styled.span`
-  color: rgb(255, 255, 255);
+  color: ${props => (props.fontColor ? props.fontColor : 'rgb(255, 255, 255)')};
   cursor: pointer;
   display: block;
   font-family: trellicons;

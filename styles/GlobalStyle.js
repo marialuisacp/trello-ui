@@ -18,7 +18,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     display: block;
-    background-color: rgb(131, 140, 145);
+    background-color: rgb(0, 174, 204);
     font-family: 'Roboto', sans-serif;
   }
 `

@@ -12,6 +12,11 @@ const StyledCard = styled.div`
   min-height: 20px;
   position: relative;
   z-index: 0;
+  display: flex;
+  justify-content: space-between;
+  &&:hover .icon-edit {
+    opacity: 1;
+  }
 `;
 
 export default StyledCard;

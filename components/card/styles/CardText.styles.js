@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 import { styles } from '../../../styles/config';
 
-const StyledCardText = styled.span`
+const StyledCardText = styled.p`
   color: ${styles.colorText};
   font-family: ${styles.fontDefault};
-  overflow: hidden;
+  /* overflow: hidden; */
   padding: 6px 8px 2px;
   position: relative;
   z-index: 10;
@@ -12,8 +12,10 @@ const StyledCardText = styled.span`
   clear: both;
   display: block;
   margin: 0 0 4px;
-  word-wrap: break-word;
-  font-size: ${styles.fontSizeDefault}
+  /* word-wrap: break-word; */
+  font-size: ${styles.fontSizeDefault};
+  line-height: 16px;
+  white-space: normal;
 `;
 
 export default StyledCardText;

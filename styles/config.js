@@ -3,5 +3,5 @@ export const styles = {
   colorPrimary: '#0077C0',
   colorSecundary: '#4E046D',
   fontDefault: 'Roboto',
-  fontSizeDefault: '14px'
+  fontSizeDefault: '12px'
 };

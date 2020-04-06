@@ -3,6 +3,7 @@ import Card from '../components/card/Card';
 import GlobalStyle from '../styles/GlobalStyle';
 import Header from '../components/header/Header';
 import BoardHeaderMenu from '../components/boardHeaderMenu/BoardHeaderMenu';
+import CardList from '../components/cardList/CardList';
 
 export default function Index() {
   return (
@@ -11,6 +12,8 @@ export default function Index() {
       <GlobalStyle />
       <Header></Header>
       <BoardHeaderMenu></BoardHeaderMenu>
+
+      <CardList></CardList>
     </div>
   );
 }

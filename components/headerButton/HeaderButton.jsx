@@ -7,8 +7,13 @@ import StyledWhiteSpace from './styles/HeaderButtonWhiteSpace.styles';
 
 const HeaderButton = props => (
   <StyledHeaderButton color={props.color} margin={props.margin}>
-    {props.icon && <StyledHeaderButtonIcon className={`icon-${props.icon}`}></StyledHeaderButtonIcon> || <StyledWhiteSpace />}
-    {props.text && <StyledHeaderButtonText light={props.light}> {props.text} </StyledHeaderButtonText>}
+    {props.icon &&
+      <StyledHeaderButtonIcon fontColor={props.fontColor} className={`icon-${props.icon}`}>
+      </StyledHeaderButtonIcon>
+      || <StyledWhiteSpace />}
+    {props.text &&
+      <StyledHeaderButtonText fontColor={props.fontColor} light={props.light}> {props.text}
+      </StyledHeaderButtonText>}
   </StyledHeaderButton>
 );
 
