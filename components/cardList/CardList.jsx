@@ -3,14 +3,11 @@ import StyledCardList from './styles/CardList.styles';
 import CardListHeader from '../cardListHeader/CardListHeader';
 import Card from '../card/Card';
 
-const CardList = () => (
+const CardList = ({ list, title }) => (
   <StyledCardList>
-    <CardListHeader title='Tarefas pra hoje'></CardListHeader>
+    <CardListHeader title={title}></CardListHeader>
     <div>
-      <Card text='Criar a estrutura do projeto'></Card>
-      <Card text='Definir padrões estruturais do projeto'></Card>
-      <Card text='Instalação e configuração inicial'></Card>
-      <Card text='Estudar o tema: Cleancode: Nomeclatura de variáveis e complexidade ciclomática'></Card>
+      {list.map((item, key) => <Card text={item.text} key={key}></Card>)}
     </div>
   </StyledCardList>
 );

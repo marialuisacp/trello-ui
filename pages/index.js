@@ -2,8 +2,9 @@ import React from 'react';
 import Card from '../components/card/Card';
 import GlobalStyle from '../styles/GlobalStyle';
 import Header from '../components/header/Header';
-import BoardHeaderMenu from '../components/boardHeaderMenu/BoardHeaderMenu';
-import CardList from '../components/cardList/CardList';
+
+import { data } from '../data';
+import Board from '../components/board/Board';
 
 export default function Index() {
   return (
@@ -11,9 +12,8 @@ export default function Index() {
       <link href="/fonts/TrellIcons/font-icons-trello.css" rel="stylesheet" key="trello" />
       <GlobalStyle />
       <Header></Header>
-      <BoardHeaderMenu></BoardHeaderMenu>
 
-      <CardList></CardList>
+      <Board data={data}></Board>
     </div>
   );
 }
