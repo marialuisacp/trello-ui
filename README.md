@@ -1,5 +1,7 @@
 # Trello UI
 
+[![CircleCI](https://circleci.com/gh/marialuisacp/trello-ui.svg?style=svg)](https://circleci.com/gh/marialuisacp/trello-ui)
+
 ## About
 
 This project is a front-end project that reproduce Trello Screen Board. The main pupose is to learn and to pratice front-end technologies.
