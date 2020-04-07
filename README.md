@@ -15,6 +15,7 @@ This code has been used:
 - React Testing Library
 - ES6/7
 - Babel
+- CircleCI
 
 Coding credits: [malu.dev](https://malu.dev)
 
