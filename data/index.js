@@ -1,5 +1,15 @@
 exports.data = [
   {
+    title: 'Backlog',
+    cards: [
+      { text: 'Rodar um teste de avaliação do Front-end. Por exemplo: Lightroom', labels: [], icons: [] },
+      { text: 'Criação da tela inicial do trello', labels: [], icons: [] },
+      { text: 'Modelagem do DB da aplicação', labels: [], icons: [] },
+      { text: 'Criação das APIs para consumir os cards', labels: [], icons: [] },
+      { text: 'Refatorar o código', labels: [], icons: [] },
+    ]
+  },
+  {
     title: 'Tarefas para fazer hoje',
     cards: [
       { text: 'Criar a estrutura do projeto', labels: ['purple'], icons: [] },
@@ -19,11 +29,27 @@ exports.data = [
     ]
   },
   {
-    title: 'Feito',
+    title: 'Pronto',
     cards: [
       { text: 'Criação do repositório do projeto, escrita do README.md e configurações iniciais', labels: [], icons: [] },
       { text: 'Configuração do Babel com o jest (transfomação dos arquivos de teste para versões mais novas do js)', labels: ['green'], icons: [] },
       { text: 'Leitura de documentação sobre Next.js', labels: ['blue'], icons: [] },
+    ]
+  },
+  {
+    title: 'Tarefas impedidas',
+    cards: [
+      { text: 'Configuração do CircleCI', labels: ['green'], icons: [] },
+    ]
+  },
+  {
+    title: 'Links importantes',
+    cards: [
+      { text: 'Documentação Next.js', labels: ['red'], icons: [] },
+      { text: 'Documentação Styled-Components', labels: ['red'], icons: [] },
+      { text: 'CircleCI', labels: ['red'], icons: [] },
+      { text: 'Documentação React Hooks', labels: ['red'], icons: [] },
+      { text: 'Documentação React Testing Library', labels: ['red'], icons: [] },
     ]
   }
 ];

@@ -18,8 +18,9 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     display: block;
-    background-color: rgb(0, 174, 204);
+    background-color: rgb(137, 96, 158);
     background-image: url('/assets/bg-board.jpg');
+    background-size: 120%;
     font-family: 'Roboto', sans-serif;
   }
 `
