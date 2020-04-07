@@ -1,16 +1,27 @@
-version: 2.1
-orbs:
-  node: circleci/node@1.1.6
+version: 1.0
 jobs:
   build-and-test:
-    executor:
-      name: node/default
+    working_directory: ~/trello-ui-testing
+    docker:
+      - image: circleci/node:10.15.1
     steps:
       - checkout
-      - node/with-cache:
-          steps:
-            - run: npm install
-            - run: npm test
+      - restore_cache:
+          key: dependency-cache-{{ checksum "package-lock.json" }}
+      - run:
+          name: Install Dependencies
+          command: npm install
+      - save_cache:
+          key: dependency-cache-{{ checksum "package-lock.json" }}
+          paths:
+            - ./node_modules
+      - run:
+          name: Run eslint
+          command: npm run lint
+      - run:
+          name: Run tests
+          command: npm run test
+
 workflows:
     build-and-test:
       jobs:
