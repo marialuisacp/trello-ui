@@ -1,6 +1,8 @@
 # Trello UI
 
-This project, is a simple app to reproduce Trello UI, built to pratice front-end technologies.
+## About
+
+This project is a front-end project that reproduce Trello Screen Board. The main pupose is to learn and to pratice front-end technologies.
 
 This code has been used:
 
@@ -9,9 +11,17 @@ This code has been used:
 - React Hooks
 - Styled-components
 - React Testing Library
-- ES7
+- ES6/7
 - Babel
-- CircleCI
+
+Coding credits: [malu.dev](https://malu.dev)
+
+## Demo
+
+Below, you can see the demonstration:
+
+![Demo do projeto](https://raw.githubusercontent.com/marialuisacp/trello-ui/master/public/assets/trello-ui-simple-demo.png?token=ABJA7PWYLT43QFIR7BG4MY26SUK7C)
+
 
 ## Comands
 
@@ -26,3 +36,4 @@ To run tests use:
 To run coverage tests use:
 
 `npm run coverage`
+
