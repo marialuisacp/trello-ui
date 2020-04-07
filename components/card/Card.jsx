@@ -5,8 +5,9 @@ import StyledCardText from './styles/CardText.styles';
 import StyledIconEdit from './styles/CardIconEdit.styles';
 import PropTypes from 'prop-types';
 import Label from '../label/Label';
+import CardItemsIcons from '../cardItemsIcons/CardItemsIcons';
 
-const Card = ({ text, labels }) => (
+const Card = ({ text, labels, icons }) => (
   <StyledCard>
     <div>
       <div style={{ display: 'flex' }}>
@@ -14,10 +15,10 @@ const Card = ({ text, labels }) => (
           <Label color={color} key={key}></Label>
         )}
       </div>
-
       <StyledContentCard>
         <StyledCardText>{text}</StyledCardText>
       </StyledContentCard>
+      <CardItemsIcons icons={icons}></CardItemsIcons>
     </div>
     <StyledIconEdit className='icon-edit'></StyledIconEdit>
   </StyledCard >
@@ -25,7 +26,8 @@ const Card = ({ text, labels }) => (
 
 Card.propTypes = {
   text: PropTypes.string.isRequired,
-  labels: PropTypes.arrayOf(PropTypes.string)
+  labels: PropTypes.arrayOf(PropTypes.string),
+  icons: PropTypes.arrayOf(PropTypes.string),
 };
 
 export default Card;

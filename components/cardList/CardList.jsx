@@ -9,7 +9,8 @@ const CardList = ({ list, title }) => (
   <StyledCardList>
     <CardListHeader title={title}></CardListHeader>
     <div>
-      {list && list.map((item, key) => <Card text={item.text} labels={item.labels} key={key}></Card>)}
+      {list && list.map((item, key) =>
+        <Card text={item.text} labels={item.labels} icons={item.icons} key={key}></Card>)}
     </div>
     <CardListMenu></CardListMenu>
   </StyledCardList>
