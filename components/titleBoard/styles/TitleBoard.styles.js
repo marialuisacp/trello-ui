@@ -11,7 +11,7 @@ const StyledTitleBoard = styled.div`
   border-radius: 4px;
   height: 25px;
   &&:hover {
-    background-color: hsla(0,0%,100%,.32);
+    background-color: hsla(0, 0%, 100%, .32);
     cursor: pointer;
   }
 `;

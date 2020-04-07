@@ -22,7 +22,7 @@ const CardItemsIcons = ({ icons }) => (
 );
 
 CardItemsIcons.propTypes = {
-  icons: PropTypes.arrayOf(PropTypes.string),
+  icons: PropTypes.arrayOf(PropTypes.object),
 };
 
 export default CardItemsIcons;

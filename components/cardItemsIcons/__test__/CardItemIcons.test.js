@@ -4,7 +4,7 @@ import { render } from '@testing-library/react';
 import CardItemsIcons from '../CardItemsIcons';
 
 const defaultProps = {
-  icons: ['description']
+  icons: [{ icon: 'description' }]
 };
 
 test('should render component CardItemsIcons', () => {

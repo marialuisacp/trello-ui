@@ -12,7 +12,7 @@ exports.data = [
   {
     title: 'Tarefas para fazer hoje',
     cards: [
-      { text: 'Criar a estrutura do projeto', labels: ['purple'], icons: [{ icon: 'description' }] },
+      { text: 'Criar a estrutura do projeto', labels: ['purple'], icons: [{ icon: 'description' }], cover: 'cover-1' },
       { text: 'Definir padrões estruturais do projeto', labels: [], icons: [] },
       { text: 'Configuração do servidor onde o projeto será hospedado. Exemplo: Firebase', labels: ['green'], icons: [{ icon: 'description' }] },
       { text: 'Instalação e configuração inicial', labels: [], icons: [] },
@@ -32,7 +32,7 @@ exports.data = [
     title: 'Pronto',
     cards: [
       { text: 'Criação do repositório do projeto, escrita do README.md e configurações iniciais', labels: [], icons: [] },
-      { text: 'Configuração do Babel com o jest (transfomação dos arquivos de teste para versões mais novas do js)', labels: ['green'], icons: [] },
+      { text: 'Configuração do Babel com o jest (transfomação dos arquivos de teste para versões mais novas do js)', labels: ['green'], icons: [], cover: 'cover-2' },
       { text: 'Leitura de documentação sobre Next.js', labels: ['blue'], icons: [] },
     ]
   },

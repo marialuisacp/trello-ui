@@ -15,7 +15,6 @@ const StyledHeader = styled.div`
   overflow: hidden;
   padding: 0px;
   position: relative;
-  text-size-adjust: 100%;
   width: 100%;
   z-index: 10;
 `;
