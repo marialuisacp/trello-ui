@@ -1,6 +1,6 @@
 version: 1.0
 jobs:
-  build-and-test:
+  build:
     working_directory: ~/trello-ui-testing
     docker:
       - image: circleci/node:10.15.1
