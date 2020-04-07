@@ -6,14 +6,13 @@ const StyledCard = styled.div`
   border-radius: 3px;
   box-shadow: 0 1px 0 rgba(9,30,66,.25);
   cursor: pointer;
-  display: block;
+  display: flex;
+  justify-content: space-between;
   margin-bottom: 8px;
   max-width: 300px;
   min-height: 20px;
   position: relative;
   z-index: 0;
-  display: flex;
-  justify-content: space-between;
   &&:hover {
     background-color: #f4f5f7;
     border-bottom-color: rgba(9,30,66,.25);

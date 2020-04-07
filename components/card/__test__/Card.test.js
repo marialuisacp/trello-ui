@@ -5,6 +5,7 @@ import Card from '../Card';
 
 const defaultProps = {
   text: 'Teste de card',
+  labels: ['red']
 };
 
 test('should render component Card', () => {

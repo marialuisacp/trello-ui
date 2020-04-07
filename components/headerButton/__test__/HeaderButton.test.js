@@ -21,7 +21,5 @@ test('should render component HeaderButton', () => {
 
 test('should have text in HeaderButton', () => {
   render(<HeaderButton {...defaultProps}></HeaderButton>);
-  console.log(defaultProps);
-
   expect(screen.getByText(defaultProps.text)).toBeInTheDocument();
 })
