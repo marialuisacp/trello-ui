@@ -24,7 +24,6 @@ Below, you can see the demonstration:
 
 ![Demo do projeto](https://raw.githubusercontent.com/marialuisacp/trello-ui/master/public/assets/trello-ui-simple-demo.png?token=ABJA7PWYLT43QFIR7BG4MY26SUK7C)
 
-
 ## Comands
 
 To run the project use de comand below:

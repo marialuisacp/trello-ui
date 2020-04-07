@@ -22,5 +22,11 @@ jobs:
           name: Run tests
           command: npm run test
       - run:
+          name: Build
+          command: npm run build
+      - run:
+          name: Build production
+          command: npm run prod
+      - run:
           name: Firebase Deploy
           command: ./node_modules/.bin/firebase deploy --token "$FIREBASE_TOKEN" --only hosting
