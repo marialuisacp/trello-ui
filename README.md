@@ -4,7 +4,7 @@
 
 ## About
 
-This project is a front-end project that reproduce Trello Screen Board. The main pupose is to learn and to pratice front-end technologies.
+This project is a front-end code that reproduce Trello Screen Board. The main pupose is to learn and to pratice front-end technologies.
 
 This code has been used:
 
