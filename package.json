@@ -17,6 +17,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "firebase-tools": "^8.0.2",
     "jest": "^25.2.7",
     "next": "^9.3.4",
     "react": "^16.13.1",
