@@ -22,7 +22,9 @@ HeaderButton.propTypes = {
   text: PropTypes.string,
   color: PropTypes.string,
   margin: PropTypes.bool,
+  fontColor: PropTypes.string,
   hover: PropTypes.string,
+  light: PropTypes.bool,
 };
 
 export default HeaderButton;

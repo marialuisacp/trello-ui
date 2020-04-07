@@ -1,11 +1,285 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1586180673905" clover="3.2.0">
-  <project timestamp="1586180673905" name="All files">
-    <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1" elements="3" coveredelements="3" complexity="0" loc="2" ncloc="2" packages="1" files="1" classes="1"/>
-    <file name="Note.jsx" path="/Users/lamarialuisa/workspace/praia/notes-app/components/note/Note.jsx">
+<coverage generated="1586224528507" clover="3.2.0">
+  <project timestamp="1586224528507" name="All files">
+    <metrics statements="75" coveredstatements="75" conditionals="39" coveredconditionals="37" methods="26" coveredmethods="26" elements="140" coveredelements="138" complexity="0" loc="75" ncloc="75" packages="28" files="40" classes="40"/>
+    <package name="components.avatar">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="3" count="1" type="stmt"/>
-      <line num="4" count="2" type="stmt"/>
-    </file>
+      <file name="Avatar.jsx" path="/Users/lamarialuisa/workspace/praia/notes-app/components/avatar/Avatar.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.avatar.styles">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="Avatar.styles.js" path="/Users/lamarialuisa/workspace/praia/notes-app/components/avatar/styles/Avatar.styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.board">
+      <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="Board.jsx" path="/Users/lamarialuisa/workspace/praia/notes-app/components/board/Board.jsx">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="12" count="12" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.board.styles">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="Board.styles.js" path="/Users/lamarialuisa/workspace/praia/notes-app/components/board/styles/Board.styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.boardHeaderMenu">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="BoardHeaderMenu.jsx" path="/Users/lamarialuisa/workspace/praia/notes-app/components/boardHeaderMenu/BoardHeaderMenu.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.boardHeaderMenu.styles">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="BoardHeaderMenu.styles.js" path="/Users/lamarialuisa/workspace/praia/notes-app/components/boardHeaderMenu/styles/BoardHeaderMenu.styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.card">
+      <metrics statements="6" coveredstatements="6" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+      <file name="Card.jsx" path="/Users/lamarialuisa/workspace/praia/notes-app/components/card/Card.jsx">
+        <metrics statements="6" coveredstatements="6" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="54" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="54" type="stmt"/>
+        <line num="19" count="32" type="stmt"/>
+        <line num="29" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.card.styles">
+      <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="Card.styles.js" path="/Users/lamarialuisa/workspace/praia/notes-app/components/card/styles/Card.styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="CardContent.styles.js" path="/Users/lamarialuisa/workspace/praia/notes-app/components/card/styles/CardContent.styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="CardCover.styles.js" path="/Users/lamarialuisa/workspace/praia/notes-app/components/card/styles/CardCover.styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="CardIconEdit.styles.js" path="/Users/lamarialuisa/workspace/praia/notes-app/components/card/styles/CardIconEdit.styles.js">
+        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="7" count="54" type="cond" truecount="1" falsecount="1"/>
+      </file>
+      <file name="CardText.styles.js" path="/Users/lamarialuisa/workspace/praia/notes-app/components/card/styles/CardText.styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.cardItemsIcons">
+      <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="CardItemsIcons.jsx" path="/Users/lamarialuisa/workspace/praia/notes-app/components/cardItemsIcons/CardItemsIcons.jsx">
+        <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="55" type="stmt"/>
+        <line num="10" count="37" type="stmt"/>
+        <line num="24" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.cardItemsIcons.styles">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="CardItemsIcons.styles.js" path="/Users/lamarialuisa/workspace/praia/notes-app/components/cardItemsIcons/styles/CardItemsIcons.styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="4" type="stmt"/>
+      </file>
+      <file name="Values.styles.js" path="/Users/lamarialuisa/workspace/praia/notes-app/components/cardItemsIcons/styles/Values.styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.cardList">
+      <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="CardList.jsx" path="/Users/lamarialuisa/workspace/praia/notes-app/components/cardList/CardList.jsx">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="15" type="stmt"/>
+        <line num="13" count="52" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.cardList.styles">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="CardList.styles.js" path="/Users/lamarialuisa/workspace/praia/notes-app/components/cardList/styles/CardList.styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.cardListHeader">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="CardListHeader.jsx" path="/Users/lamarialuisa/workspace/praia/notes-app/components/cardListHeader/CardListHeader.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="17" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.cardListHeader.styles">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="CardListHeader.styles.js" path="/Users/lamarialuisa/workspace/praia/notes-app/components/cardListHeader/styles/CardListHeader.styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="CardListHeaderTitle.styles.js" path="/Users/lamarialuisa/workspace/praia/notes-app/components/cardListHeader/styles/CardListHeaderTitle.styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.cardListMenu">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="CardListMenu.jsx" path="/Users/lamarialuisa/workspace/praia/notes-app/components/cardListMenu/CardListMenu.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="16" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.cardListMenu.styles">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="CardListMenu.styles.js" path="/Users/lamarialuisa/workspace/praia/notes-app/components/cardListMenu/styles/CardListMenu.styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.header">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Header.jsx" path="/Users/lamarialuisa/workspace/praia/notes-app/components/header/Header.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.header.styles">
+      <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="Header.styles.js" path="/Users/lamarialuisa/workspace/praia/notes-app/components/header/styles/Header.styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+      <file name="HeaderColumns.styles.js" path="/Users/lamarialuisa/workspace/praia/notes-app/components/header/styles/HeaderColumns.styles.js">
+        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="10" count="9" type="cond" truecount="2" falsecount="0"/>
+      </file>
+      <file name="HeaderLogo.styles.js" path="/Users/lamarialuisa/workspace/praia/notes-app/components/header/styles/HeaderLogo.styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.headerButton">
+      <metrics statements="3" coveredstatements="3" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+      <file name="HeaderButton.jsx" path="/Users/lamarialuisa/workspace/praia/notes-app/components/headerButton/HeaderButton.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+        <line num="8" count="9" type="stmt"/>
+        <line num="9" count="115" type="stmt"/>
+        <line num="20" count="9" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.headerButton.styles">
+      <metrics statements="10" coveredstatements="10" conditionals="12" coveredconditionals="12" methods="6" coveredmethods="6"/>
+      <file name="HeaderButton.styles.js" path="/Users/lamarialuisa/workspace/praia/notes-app/components/headerButton/styles/HeaderButton.styles.js">
+        <metrics statements="4" coveredstatements="4" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
+        <line num="3" count="9" type="stmt"/>
+        <line num="6" count="115" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="115" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="115" type="cond" truecount="2" falsecount="0"/>
+      </file>
+      <file name="HeaderButtonIcon.styles.js" path="/Users/lamarialuisa/workspace/praia/notes-app/components/headerButton/styles/HeaderButtonIcon.styles.js">
+        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="3" count="9" type="stmt"/>
+        <line num="4" count="103" type="cond" truecount="2" falsecount="0"/>
+      </file>
+      <file name="HeaderButtonText.styles.js" path="/Users/lamarialuisa/workspace/praia/notes-app/components/headerButton/styles/HeaderButtonText.styles.js">
+        <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="3" count="9" type="stmt"/>
+        <line num="4" count="37" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="37" type="cond" truecount="2" falsecount="0"/>
+      </file>
+      <file name="HeaderButtonWhiteSpace.styles.js" path="/Users/lamarialuisa/workspace/praia/notes-app/components/headerButton/styles/HeaderButtonWhiteSpace.styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="9" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.headerDivisor">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="HeaderDivisor.jsx" path="/Users/lamarialuisa/workspace/praia/notes-app/components/headerDivisor/HeaderDivisor.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.headerDivisor.styles">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="HeaderDivisor.styles.js" path="/Users/lamarialuisa/workspace/praia/notes-app/components/headerDivisor/styles/HeaderDivisor.styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.label">
+      <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <file name="Label.jsx" path="/Users/lamarialuisa/workspace/praia/notes-app/components/label/Label.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="33" type="cond" truecount="3" falsecount="1"/>
+        <line num="10" count="4" type="stmt"/>
+      </file>
+      <file name="defaultLabelColors.js" path="/Users/lamarialuisa/workspace/praia/notes-app/components/label/defaultLabelColors.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.label.styles">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Label.styles.js" path="/Users/lamarialuisa/workspace/praia/notes-app/components/label/styles/Label.styles.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="10" count="33" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.titleBoard">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="TitleBoard.jsx" path="/Users/lamarialuisa/workspace/praia/notes-app/components/titleBoard/TitleBoard.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.titleBoard.styles">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="TitleBoard.styles.js" path="/Users/lamarialuisa/workspace/praia/notes-app/components/titleBoard/styles/TitleBoard.styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="data">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.js" path="/Users/lamarialuisa/workspace/praia/notes-app/data/index.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="styles">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="config.js" path="/Users/lamarialuisa/workspace/praia/notes-app/styles/config.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="6" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>
